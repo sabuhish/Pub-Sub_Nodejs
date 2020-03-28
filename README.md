@@ -1,20 +1,18 @@
 # Pub/Sub Node.js application using expres.
 
 
-##### This Simple Node Js application allows you render your HTML views and static files through express and have real time socket connection. Using SocketIO library, client side establises connection emiting data from events. Redis is used to publish data from any backend server to Nodesj using Pub/Sub pattern. 
+##### This Simple Node Js application allows you render your HTML views and static files through express and have real time socket connection. 
 
 
+##### Using SocketIO library, client side establises connection emiting data from events. Redis is used to publish data from any backend server to Nodesj using Pub/Sub pattern. 
 
 
-
-#### In our example Node js app subscibres to the channel. With python script we publish the message.
-
-
-#### Pub/Sub operation through SocketIO
 
 
 ### Usage
 
+Node.js
+```npm
 
 In order to run Nodejs:
 
@@ -22,6 +20,7 @@ npm install
 
 node index.js
 
+```
 Python:
 
 ```python
