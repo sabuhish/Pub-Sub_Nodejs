@@ -1,0 +1,17 @@
+{
+  "name": "pub_sub_nodejs",
+  "version": "1.0.0",
+  "description": "Simple publish and subscribe through redis and socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Sebuhi Shukurov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "redis": "^2.8.0",
+    "socket.io": "^2.3.0"
+  }
+}
